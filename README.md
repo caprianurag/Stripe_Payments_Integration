@@ -12,7 +12,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Project files
 
-Download the project folder `Stripe_Payments_Integration` to your local machine. 
+1. Download the project folder `Stripe_Payments_Integration` to your local machine. 
+2. Get your secret API key from your Stripe account and use in file server.js in the project.
+3. Get your publishable API key from your Stripe account and use in file src/App.js.
 
 ## Install Stripe
 Install the required Stripe libraries on your machine. 
@@ -35,7 +37,7 @@ Install the required Stripe libraries on your machine.
 
 1. Open another terminal window.
 2. Navigate to the folder where you installed the Stripe CLI. Skip this step if you installed Stripe CLI to `/usr/local/bin`
-3. Run `./stripe listen > output.log`. This would log the payment logs to the output.log file in the current folder.
+3. Run `./stripe listen > output.txt`. This would log the payment logs to the output.log file in the current folder.
 
 ## Run the application
 

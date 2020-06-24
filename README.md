@@ -43,7 +43,7 @@ Install the required Stripe libraries on your machine.
 
 1. Open a terminal window.
 2. Use the commad `cd` to navigate to the `Stripe_Payments_Integration` folder.
-3. Run `npm start`.
+3. Run `npm start`. If you don't have `yarn` installed, please install it and ensure that its in your profile so you can run it
 4. This will open a browser window with the payments field, ready to accept paymenTest paymentIntents
 
 ## Make a test payment
